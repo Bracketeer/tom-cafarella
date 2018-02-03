@@ -1,4 +1,4 @@
-<nav role="navigation" class="navbar navbar-fixed-top navbar-andross">
+<nav role="navigation" class="navbar navbar-fixed-top navbar-2">
 	<div class="navbar-header">
 		<a href="/" class="navbar-brand visible-xs" data-target="#navbarCollapse"	data-toggle="collapse">
 		{{site.data.settings.title | replace: "-- CLIENT BRAND --", site.data.settings.client.brand }}</a>
@@ -15,7 +15,7 @@
 
  	<div id="navbarCollapse" class="collapse navbar-collapse">
 		<ul class="nav navbar-nav navbar-left">
-				<li><a class="nav-logo-link" href="/"><img class="nav-logo" src="{{site.data.settings.images.nav_logo_path}}" alt="{{site.data.settings.client.brand}}"></a></li>
+			<li><a class="nav-logo-link" href="/"><img class="nav-logo" src="{{site.data.settings.images.nav_logo_path}}" alt="{{site.data.settings.client.brand}}"></a></li>
 			{% if site.data.settings.show_custom_links == true %}
 				{% for item in site.data.settings.custom_links %}
       		<li><a class="nav-item" href="{{ item.url}}">{{ item.title}}</a></li>

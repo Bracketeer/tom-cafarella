@@ -6,8 +6,10 @@
 	<body>
 		{% if site.data.settings.audit_header == true %}
 			{% include audit.html %}
-		{% endif %}
-		{% include header.html %}
+    {% endif %}
+    {% comment %}
+    {% include header.html %}
+    {% endcomment %}
 		<div class="container-fluid">
 			<div class="row">
 				<div class="col-sm-12">
@@ -16,6 +18,7 @@
 					{% include contact-modal.html %}
 				</div>
 			</div>
+			<div class="headerless-container">
 			<div class="row">
 				<!-- <div class="col-lg-12 welcome-box" id="welcome-box">
 					{% include welcome-box.html %}
@@ -30,39 +33,24 @@
 
 			</div>
 			<div class="row">
-				<div class="col-lg-10 col-lg-offset-1">
-
-						<h1 class="highlights-header">{{site.data.settings.highlights_header}}</h1>
-						<hr class="header-divider">
-
-					{{content}}
-        </div>
-          {% comment %}
-					<h1 class="highlights-header">Another header</h1>
-					<hr class="header-divider">
 				<div class="col-lg-7 col-md-7 col-lg-offset-1">
+					{{ content }}
 				</div>
 
 			<!-- Sidebar Content // Hidden on mobile -->
+
 				<div class="col-md-5 col-lg-3 hidden-sm hidden-xs sidebar">
 					{% include socials.html %}
-					{% include search-box.html %}
 					{% include cta-sidebar.html %}
 					{% include lender.html %}
 					{% include blog-archive-category.html %}
 					{% include reviews.html %}
-        </div>
-        {% endcomment %}
+				</div>
 			</div>
-
-      </div>
-      {% comment %}
+		</div>
+			</div>
 			{% include pagination.html %}
-			{% include about.html %}
 			{% include newsletter.html %}
-      {% include testimonials.html %} 
-      {% endcomment %}
-			{% include bottom-navigation.html %}
 			{% include footer.html %}
   </body>
 </html>

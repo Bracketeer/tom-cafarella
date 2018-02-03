@@ -3,21 +3,21 @@
   <channel>
     <title>Real Estate Investing Made Easy</title>
     <description>If you are looking to buy or sell a home, get all the information and the latest updates, tips, and tricks from Ocean City Development - your professional  Real Estate Agents.</description>
-    <link>localhost:4000/</link>
-    <atom:link href="localhost:4000/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Fri, 07 Jul 2017 01:04:05 -0500</pubDate>
-    <lastBuildDate>Fri, 07 Jul 2017 01:04:05 -0500</lastBuildDate>
-    <generator>Jekyll v3.2.1</generator>
+    <link>http://localhost:4000/</link>
+    <atom:link href="http://localhost:4000/feed.xml" rel="self" type="application/rss+xml"/>
+    <pubDate>Sun, 21 Jan 2018 13:38:32 -0600</pubDate>
+    <lastBuildDate>Sun, 21 Jan 2018 13:38:32 -0600</lastBuildDate>
+    <generator>Jekyll v3.6.2</generator>
     
       <item>
         <title>This is a Weekly Recording post</title>
         <description>&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/?rel=0&quot; frameborder=&quot;0&quot; allowfullscreen=&quot;&quot;&gt;&lt;/iframe&gt;
 
-&lt;p&gt;&lt;a href=&quot;https://twitter.com/home/?status=%20localhost:4000/weeklyrecording/weeklyrecording.html%20via%40&quot; target=&quot;_blank&quot; class=&quot;pullquote&quot;&gt;“”&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;https://twitter.com/home/?status=%20http://localhost:4000/weeklyrecording/weeklyrecording.html%20via%40&quot; target=&quot;_blank&quot; class=&quot;pullquote&quot;&gt;“”&lt;/a&gt;&lt;/p&gt;
 </description>
         <pubDate>Sat, 01 Jul 2017 15:47:00 -0500</pubDate>
-        <link>localhost:4000/weeklyrecording/weeklyrecording.html</link>
-        <guid isPermaLink="true">localhost:4000/weeklyrecording/weeklyrecording.html</guid>
+        <link>http://localhost:4000/weeklyrecording/weeklyrecording.html</link>
+        <guid isPermaLink="true">http://localhost:4000/weeklyrecording/weeklyrecording.html</guid>
         
         
         <category>weeklyrecording</category>
@@ -28,11 +28,11 @@
         <title>This is a Q and A post</title>
         <description>&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/?rel=0&quot; frameborder=&quot;0&quot; allowfullscreen=&quot;&quot;&gt;&lt;/iframe&gt;
 
-&lt;p&gt;&lt;a href=&quot;https://twitter.com/home/?status=%20localhost:4000/qa/QandAtest.html%20via%40&quot; target=&quot;_blank&quot; class=&quot;pullquote&quot;&gt;“”&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;https://twitter.com/home/?status=%20http://localhost:4000/qa/QandAtest.html%20via%40&quot; target=&quot;_blank&quot; class=&quot;pullquote&quot;&gt;“”&lt;/a&gt;&lt;/p&gt;
 </description>
         <pubDate>Sat, 01 Jul 2017 15:47:00 -0500</pubDate>
-        <link>localhost:4000/qa/QandAtest.html</link>
-        <guid isPermaLink="true">localhost:4000/qa/QandAtest.html</guid>
+        <link>http://localhost:4000/qa/QandAtest.html</link>
+        <guid isPermaLink="true">http://localhost:4000/qa/QandAtest.html</guid>
         
         
         <category>QA</category>
@@ -43,11 +43,11 @@
         <title>This is a Strategy Session post</title>
         <description>&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/?rel=0&quot; frameborder=&quot;0&quot; allowfullscreen=&quot;&quot;&gt;&lt;/iframe&gt;
 
-&lt;p&gt;&lt;a href=&quot;https://twitter.com/home/?status=%20localhost:4000/strategysession/strategysessions.html%20via%40&quot; target=&quot;_blank&quot; class=&quot;pullquote&quot;&gt;“”&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;https://twitter.com/home/?status=%20http://localhost:4000/strategysession/strategysessions.html%20via%40&quot; target=&quot;_blank&quot; class=&quot;pullquote&quot;&gt;“”&lt;/a&gt;&lt;/p&gt;
 </description>
         <pubDate>Sat, 01 Jul 2017 15:47:00 -0500</pubDate>
-        <link>localhost:4000/strategysession/strategysessions.html</link>
-        <guid isPermaLink="true">localhost:4000/strategysession/strategysessions.html</guid>
+        <link>http://localhost:4000/strategysession/strategysessions.html</link>
+        <guid isPermaLink="true">http://localhost:4000/strategysession/strategysessions.html</guid>
         
         
         <category>strategysession</category>
@@ -61,8 +61,8 @@
 &lt;p&gt;Tom Cafarella discusses what works and what doesn’t when you are generating motivated seller leads. &lt;strong&gt;&lt;a href=&quot;https://flipnerd.com/show/motivated-seller-leads-investors/&quot;&gt;Learn more.&lt;/a&gt;&lt;/strong&gt;&lt;/p&gt;
 </description>
         <pubDate>Wed, 28 Jun 2017 15:47:00 -0500</pubDate>
-        <link>localhost:4000/featured-on-flipnerdcom-motivated.html</link>
-        <guid isPermaLink="true">localhost:4000/featured-on-flipnerdcom-motivated.html</guid>
+        <link>http://localhost:4000/featured-on-flipnerdcom-motivated.html</link>
+        <guid isPermaLink="true">http://localhost:4000/featured-on-flipnerdcom-motivated.html</guid>
         
         <category>Interviews</category>
         
@@ -75,8 +75,8 @@
 
 </description>
         <pubDate>Mon, 26 Jun 2017 10:18:00 -0500</pubDate>
-        <link>localhost:4000/featured-on-real-estate-uncensored-role.html</link>
-        <guid isPermaLink="true">localhost:4000/featured-on-real-estate-uncensored-role.html</guid>
+        <link>http://localhost:4000/featured-on-real-estate-uncensored-role.html</link>
+        <guid isPermaLink="true">http://localhost:4000/featured-on-real-estate-uncensored-role.html</guid>
         
         <category>Interviews</category>
         
@@ -89,8 +89,8 @@
 
 </description>
         <pubDate>Thu, 22 Jun 2017 10:48:00 -0500</pubDate>
-        <link>localhost:4000/How-To-Generate-Motivated-Seller-Leads.html</link>
-        <guid isPermaLink="true">localhost:4000/How-To-Generate-Motivated-Seller-Leads.html</guid>
+        <link>http://localhost:4000/How-To-Generate-Motivated-Seller-Leads.html</link>
+        <guid isPermaLink="true">http://localhost:4000/How-To-Generate-Motivated-Seller-Leads.html</guid>
         
         
       </item>
@@ -131,8 +131,8 @@
 &lt;p&gt;&lt;em&gt;Especially if you’re a new agent you have to join Cameron, they give you all the support that you need. Everyone is fantastic, everyone helps each other out. They give you every opportunity to be a successful agent. Their goal is really to get you up and running. They want you to have your own leads and do your own business but they are going to give you everything you need to get up to where you need to be. her out. They give you every opportunity to be a successful agent. Their goal is really to get you up and running. They want you to have your own leads and do your own business but they are going to give you everything you need to get up to where you need to be.&lt;/em&gt;&lt;/p&gt;
 </description>
         <pubDate>Wed, 21 Jun 2017 16:24:00 -0500</pubDate>
-        <link>localhost:4000/amanda-chaves.html</link>
-        <guid isPermaLink="true">localhost:4000/amanda-chaves.html</guid>
+        <link>http://localhost:4000/amanda-chaves.html</link>
+        <guid isPermaLink="true">http://localhost:4000/amanda-chaves.html</guid>
         
         <category>Testimonials</category>
         
@@ -150,8 +150,8 @@
 
 </description>
         <pubDate>Fri, 09 Jun 2017 14:15:00 -0500</pubDate>
-        <link>localhost:4000/featured-on-team-building-podcast.html</link>
-        <guid isPermaLink="true">localhost:4000/featured-on-team-building-podcast.html</guid>
+        <link>http://localhost:4000/featured-on-team-building-podcast.html</link>
+        <guid isPermaLink="true">http://localhost:4000/featured-on-team-building-podcast.html</guid>
         
         <category>Interviews</category>
         
@@ -168,8 +168,8 @@ Kyle had some older leads that were initially non-responsive, Tom Cafarella of O
 &lt;p&gt;Tom, The email went out today and I got 26 responses and 4 phone calls. I have set up several appointments, some will be for listings and there is a few that look like promising assignment leads. I do love this system. I am looking forward to the trip in July.&lt;/p&gt;
 </description>
         <pubDate>Thu, 25 May 2017 16:30:00 -0500</pubDate>
-        <link>localhost:4000/kyles-feedback-on-ocean-city.html</link>
-        <guid isPermaLink="true">localhost:4000/kyles-feedback-on-ocean-city.html</guid>
+        <link>http://localhost:4000/kyles-feedback-on-ocean-city.html</link>
+        <guid isPermaLink="true">http://localhost:4000/kyles-feedback-on-ocean-city.html</guid>
         
         
       </item>
@@ -239,8 +239,8 @@ I’ve been flooded with questions about Zillow “Instant Offers” and so I wa
 &lt;/ol&gt;
 </description>
         <pubDate>Thu, 25 May 2017 09:50:00 -0500</pubDate>
-        <link>localhost:4000/zillow-instant-offers-how-it-will.html</link>
-        <guid isPermaLink="true">localhost:4000/zillow-instant-offers-how-it-will.html</guid>
+        <link>http://localhost:4000/zillow-instant-offers-how-it-will.html</link>
+        <guid isPermaLink="true">http://localhost:4000/zillow-instant-offers-how-it-will.html</guid>
         
         
       </item>

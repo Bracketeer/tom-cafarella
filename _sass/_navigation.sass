@@ -2,21 +2,23 @@
 	border: none
 	border-radius: 0
 	min-height: 65px
-	background: transparent
+	background-image: url(/img/background-gradient.jpg)
+	background-position: top center
+	background-size: cover
 	width: 100%
 	overflow: hidden
 
-.navbar-andross .navbar-brand
-	padding-top: 20px
-	// padding-bottom: 33px
-	font-size: 20px
-	text-transform: uppercase
-	max-width: 65%
-	// color: #fff
+	.navbar-andross .navbar-brand
+		padding-top: 20px
+		// padding-bottom: 33px
+		font-size: 20px
+		text-transform: uppercase
+		max-width: 65%
+		// color: #fff
 
-.navbar-nav>li
-	margin-right: 10px
-	@include transition
+		.navbar-nav>li
+			margin-right: 10px
+			@include transition
 
 .nav-item
 	border: 0
@@ -24,11 +26,11 @@
 	color: #fff
 	margin-top: 15px
 	&:hover
-		background: transparent
+		background: transparent !important
 		color: #D4DA0C
+	&:active
+		background: transparent !important	
 
-.nav>li>a:focus, .nav>li>a:hover
-	background: transparent
 .fa-bars
 	color: #fff
 
@@ -60,27 +62,50 @@
 	.navbar-brand
 		color: #fff
 .scroll-nav-color
-	background: transparentize($theme, 0)
-	animation: .5s fadeNavigation ease-in-out
-	+shadow
+	animation: .3s fadeNavigation ease-in-out forwards
+	// +shadow
+.scroll-nav-color-remove
+	animation: .5s fadeNavigationReverse ease-in-out forwards
+
 @keyframes fadeNavigation
 	0%
-		transform: translateY(0)
-		background: transparentize($theme, 1)
-	// 50%
-	// 	transform: translateY(-100px)
-	// 	background: transparent
-	// 51%
-	// 	background: $brand
+		// transform: translateY(0)
+		// background-image: url(/img/background-gradient.jpg)
+		box-shadow: 0px 0px 0px rgba(0,0,0,.0)
 	100%
-		background: transparentize($theme, 0)
-		transform: translateY(0)
-		+shadow
+		// transform: translateY(0)
+		box-shadow: 0px 3px 7px rgba(0,0,0,.3)
+		// +shadow
 		// background: $theme
-.brand-color
-	+shadow
-	background: $theme
-	animation: .3s fadein ease-in-out
+@keyframes fadeNavigationReverse
+	0%
+		// background-image: url(/img/background-gradient.jpg)
+		// transform: translateY(0)
+		box-shadow: 0px 3px 7px rgba(0,0,0,.3)
+		// +shadow
+	100%
+		box-shadow: 0px 0px 0px rgba(0,0,0,.0)
+		// transform: translateY(0)
+		// // background: transparentize($brand, 1)
+// .brand-color
+// 	+shadow
+// 	background: $theme
+// 	animation: .3s fadein ease-in-out
 
 .navbar-left-scroll
 	color: $brand
+
+.navbar-2
+	background-image: url(/img/background-gradient.jpg)
+
+.nav-logo-link
+	padding: 0 10px !important
+	background: none !important
+	&:hover
+		background: none !important
+	&:active
+		background: none !important
+.nav-logo
+	height: 40px
+	margin-top: 5px
+		

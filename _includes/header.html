@@ -1,10 +1,10 @@
 <header id="hero">
-<div class="hero-img" style="background-image: url({{site.data.settings.images.hero_image_path}}); background-color: {{site.data.settings.images.hero_background_hex}}">
+<div class="hero-img" style="background-image: url({{site.data.settings.images.hero_image_path | prepend: site.baseurl}}); background-color: {{site.data.settings.images.hero_background_hex}}">
         <!-- logo -->
 				<div class="row">
         <div class="col-lg-5 col-lg-offset-1 col-md-6 col-sm-12 cta-box">
 					<div class="cta-content">
-						<img src="/img/logo.png" class="site-logo" style="width: 50%" alt="">
+						<img src="{{site.baseurl}}/img/logo.png" class="site-logo" style="width: 50%" alt="">
 						<h4><b>Learn the Simple 3-Step Process For Finding, Analyzing & Closing 7-10 High-Profit Real Estate Investment Deals Every Single Month</b></h4>
 						<h5>The easiest way to acquire home run real estate deals (including buy and hold properties) WITHOUT using your own money</h5>
 					</div>

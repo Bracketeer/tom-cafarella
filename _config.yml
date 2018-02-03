@@ -1,4 +1,4 @@
-title: "Andross"
+title: "Tom Cafarella"
 # the subpath of your site, e.g. /blog
 baseurl: ""
 # the base hostname & protocol for your site. Don't let it end in '/' or you'll mess the links up
@@ -19,8 +19,8 @@ highlighter: rouge
 
 paginate: 5
 permalink: none
-
-gems:
+paginate_path: "/blog/page:num/"
+plugins:
   - jemoji
   - octopress-autoprefixer
   - jekyll-paginate
