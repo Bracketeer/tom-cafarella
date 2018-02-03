@@ -2013,7 +2013,7 @@ img[src*='#left'] {
   padding-left: 10px; }
 
 .post-title {
-  font-size: 5rem;
+  font-size: 3rem;
   text-align: left; }
 
 .post-link {
@@ -3067,5 +3067,27 @@ form select {
         padding: 0 0 0 0; }
       .video-block .col-lg-4:nth-child(3) {
         padding: 0 0 0 0; } }
+.staff-block {
+  padding: 5px;
+  padding-bottom: 50px;
+  text-align: center; }
+
+.staff-block > a {
+  font-size: 18px;
+  font-family: sans-serif; }
+
+.staff-image-block {
+  border-radius: 50%;
+  overflow: hidden;
+  border: 3px solid #005dab;
+  width: 200px;
+  height: 200px;
+  margin: 0 auto; }
+
+.staff-image {
+  width: 200px;
+  position: relative;
+  top: 0; }
+
 .newsletter {
   background: #ededed; }

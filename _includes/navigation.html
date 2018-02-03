@@ -18,7 +18,7 @@
 				<li><a class="nav-logo-link" href="/"><img class="nav-logo" src="{{site.data.settings.images.nav_logo_path}}" alt="{{site.data.settings.client.brand}}"></a></li>
 			{% if site.data.settings.show_custom_links == true %}
 				{% for item in site.data.settings.custom_links %}
-      		<li><a class="nav-item" href="{{ item.url}}">{{ item.title}}</a></li>
+      		<li><a class="nav-item" href="{{ item.url | prepend: site.baseurl}}">{{ item.title}}</a></li>
     		{% endfor %}
 			{% endif %}
 			{% if site.data.settings.CTAs.first_CTA_URL != '#contact' and site.data.settings.CTAs.second_CTA_URL != '#contact' %}

@@ -1,11 +1,13 @@
 ---
+has_soundcloud: true
+soundcloud_embed_code: 317040732
 youtube_code:
 excerpt:
 enclosure:
 pullquote:
 enclosure_type: video/mp4
 enclosure_time:
-use_youtube_image: true
+use_youtube_image: false
 youtube_alternate_image: /img/cover.jpg
 layout: post
 title: Eric Shute

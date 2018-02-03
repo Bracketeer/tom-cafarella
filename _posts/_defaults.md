@@ -1,4 +1,6 @@
 ---
+has_soundcloud: false
+soundcloud_embed_code: 
 layout: post
 title:
 date:

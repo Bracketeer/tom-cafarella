@@ -5,14 +5,17 @@ title: Testimonials
 <!-- blog feed -->
 {% for post in site.tags.Testimonials %}
 <div class="row">
-	<div class="col-lg-8 col-lg-offset-2">
+	<div class="col-lg-10 col-lg-offset-1">
 
- 	 <h2 class="post-overview-title"><a class="post-link" href="{{ post.url }}">{{ post.title | truncate: 70 }}</a></h2>
  	 <hr />
+ 	 <h2 class="post-overview-title"><a class="post-link" href="{{ post.url }}">{{ post.title | truncate: 70 }}</a></h2>
   </div>
-    <div class="col-lg-2 col-lg-offset-2 testimonial-excerpts">
+    <div class="col-lg-10 col-lg-offset-1 testimonial-excerpts">
 
 			<a href="{{post.url}}">
+				{% if post.has_soundcloud == true %}
+				<iframe width="100%" height="166" scrolling="no" frameborder="no" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/{{post.soundcloud_embed_code}}&amp;color=ff5500"></iframe>
+				{% else %}
 				{% if post.use_youtube_image == true %}
 				<img src="http://img.youtube.com/vi/{{post.youtube_code | remove: 'https://youtu.be/' | remove: 'https://www.youtube.com/watch?v='}}/maxresdefault.jpg" alt="{{post.title}}" class="testimonial-image"  height="150px" width="auto" />
 				{% else %}
@@ -22,12 +25,13 @@ title: Testimonials
 						<img src="{{ site.data.settings.images.post_cover }}" alt="{{post.title}}"  class="testimonial-image" height="150px" width="auto"/>
 					{% endif %}
 				{% endif %}
+				{% endif %}
 			</a>
-		</div>
-		<div class="col-lg-6">
-
-			{{ post.excerpt | strip_html | prepend: "<p class='excerpt'>" | append: "<p>" | truncate: 320 }}<br><br>
-				<a href="{{post.url}}" class="readlink">Read More</a>
+			<div class="col-lg-10 col-lg-offset-1">
+				<br>
+				<!-- {{ post.excerpt | strip_html | prepend: "<p class='excerpt'>" | append: "<p>" | truncate: 320 }}<br><br> -->
+					<a href="{{post.url}}" class="readlink">Read The Full Interview</a>
+			</div>
 		</div>
     </div>
 {% endfor %}
