@@ -6,7 +6,7 @@ pullquote:
 enclosure_type: video/mp4
 enclosure_time:
 use_youtube_image: false
-youtube_alternate_image: /img/ss/teambuildingss.jpg
+youtube_alternate_image: /img/SS/teambuildingSS.jpg
 layout: post
 title: Featured on The Team Building Podcast
 date: '2017-06-09T12:15:00.001-07:00'

@@ -6,7 +6,7 @@ pullquote:
 enclosure_type: video/mp4
 enclosure_time:
 use_youtube_image: false
-youtube_alternate_image: /img/ss/marketingdudeSS.jpg
+youtube_alternate_image: /img/SS/marketingdudeSS.jpg
 layout: post
 title: Tom Cafarella on the Real Estate Marketing Dude Podcast
 date: '2017-04-20T08:39:00.005-07:00'
