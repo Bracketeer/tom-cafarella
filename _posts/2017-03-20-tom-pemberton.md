@@ -1,4 +1,6 @@
 ---
+has_soundcloud: false
+soundcloud_embed_code: 313631037
 youtube_code:
 excerpt:
 enclosure:
@@ -6,7 +8,7 @@ pullquote:
 enclosure_type: video/mp4
 enclosure_time:
 use_youtube_image: false
-youtube_alternate_image: https://2.bp.blogspot.com/-mOMHUeq3X10/WNAxTjyKuFI/AAAAAAAAt1I/JazInKcNtwM5YikyOu3pRfNTPiLIbkY1gCEw/s1600/TPemberton.jpg
+youtube_alternate_image: /img/testimonials/TPemberton.jpg
 layout: post
 title: 'Tom Pemberton '
 date: '2017-03-20T12:49:00.002-07:00'

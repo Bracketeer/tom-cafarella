@@ -1,4 +1,6 @@
 ---
+has_soundcloud: true
+soundcloud_embed_code: 316121821
 youtube_code:
 excerpt:
 enclosure:

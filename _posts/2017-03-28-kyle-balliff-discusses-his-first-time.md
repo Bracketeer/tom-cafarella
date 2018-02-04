@@ -1,4 +1,6 @@
 ---
+has_soundcloud: true
+soundcloud_embed_code: 314885702
 youtube_code:
 excerpt: "Tom Cafarella of Ocean City Development interviews Kyle Balliff, a recent addition to his real estate investing team."
 enclosure:

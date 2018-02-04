@@ -17,8 +17,11 @@ layout: blog
         <div class="col-lg-6 post-image-container">
           <div class="post-excerpts">
 
+						{% if post.has_soundcloud == true%}
+						<iframe width="100%" height="300" scrolling="no" frameborder="no" allow="autoplay" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/{{post.soundcloud_embed_code}}&amp;color=%23ff5500&amp;auto_play=false&amp;hide_related=false&amp;show_comments=true&amp;show_user=true&amp;show_reposts=false&amp;show_teaser=true&amp;visual=true"></iframe>
+						{% else %}
 						<a href="{{post.url}}">
-	            {% if post.use_youtube_image == true %}
+						{% if post.use_youtube_image == true %}
 	            <img src="http://img.youtube.com/vi/{{post.youtube_code | remove: 'https://youtu.be/' | remove: 'https://www.youtube.com/watch?v='}}/maxresdefault.jpg" alt="{{post.title}}" class="post-image" />
 	            {% else %}
 								{% if post.youtube_alternate_image != null %}
@@ -26,8 +29,9 @@ layout: blog
 								{% else %}
 									<img src="{{ site.data.settings.images.post_cover }}" alt="{{post.title}}" class="post-image"/>
 								{% endif %}
-	            {% endif %}
+							{% endif %}
 	          </a>
+							{% endif%}
           </div>
         </div>
 				<div class="col-lg-6">
