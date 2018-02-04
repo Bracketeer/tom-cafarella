@@ -1,5 +1,12 @@
 ---
 layout: blog
+pagination: 
+  enabled: true
+  per_page: 5
+  permalink: '/:num/'
+  trail: 
+    before: 1
+    after: 3
 ---
 <!-- blog feed -->
       {% for post in paginator.posts %}

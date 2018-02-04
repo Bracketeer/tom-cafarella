@@ -13,6 +13,7 @@ date: '2016-07-01T14:23:00.002-07:00'
 author: Vyral Admin
 tags:
 - Welcome
+categories: Blog
 modified_time: '2016-07-25T09:22:34.652-07:00'
 thumbnail: https://img.youtube.com/vi/mWG-j3n17F4/default.jpg
 blogger_id: tag:blogger.com,1999:blog-5912202199970471220.post-2237851807380844035

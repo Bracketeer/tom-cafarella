@@ -1,4 +1,6 @@
 ---
+has_soundcloud: true
+soundcloud_embed_code: 323415216
 youtube_code:
 excerpt: 'Tom Cafarella was featured on the Anything & Everything Real Estate radio show to discuss his expanding real estate investment company—Ocean City Development LLC.'
 enclosure:

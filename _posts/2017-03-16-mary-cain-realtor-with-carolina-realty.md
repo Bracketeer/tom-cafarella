@@ -13,6 +13,7 @@ date: '2017-03-16T08:41:00.003-07:00'
 author: Vyral Admin
 tags:
 - Testimonials
+categories: Testimonials
 modified_time: '2017-03-16T08:47:44.059-07:00'
 thumbnail: https://1.bp.blogspot.com/-vLOoTL_oofk/WMqxvY05azI/AAAAAAAAt0I/yTo6R6NpwNsvilt_BdrDLmskfVUFFGKBACLcB/s72-c/Main%2BCain%2Bimage%2Bfor%2Btestimonial.jpg
 blogger_id: tag:blogger.com,1999:blog-5912202199970471220.post-4414413149304013961

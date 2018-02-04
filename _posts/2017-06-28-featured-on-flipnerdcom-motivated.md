@@ -5,8 +5,8 @@ enclosure:
 pullquote:
 enclosure_type: video/mp4
 enclosure_time:
-use_youtube_image: true
-youtube_alternate_image: /img/cover.jpg
+use_youtube_image: false
+youtube_alternate_image: /img/ss/flipnerdSS.jpg
 layout: post
 title: 'Featured on Flipnerd.com: Motivated Seller Leads for Investors'
 date: '2017-06-28T13:47:00.004-07:00'

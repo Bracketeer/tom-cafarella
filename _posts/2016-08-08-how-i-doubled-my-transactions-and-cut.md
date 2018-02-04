@@ -13,6 +13,7 @@ date: '2016-08-08T11:36:00.000-07:00'
 author: Vyral Admin
 tags:
 - Recruiting
+categories: Blog
 modified_time: '2017-02-07T10:35:16.495-08:00'
 thumbnail: https://img.youtube.com/vi/USRKuH9bftQ/default.jpg
 blogger_id: tag:blogger.com,1999:blog-5912202199970471220.post-949424379802166946

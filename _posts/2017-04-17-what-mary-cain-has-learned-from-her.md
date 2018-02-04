@@ -15,6 +15,7 @@ date: '2017-04-17T08:03:00.000-07:00'
 author: Vyral Admin
 tags:
 - Testimonials
+categories: Testimonials
 modified_time: '2017-04-17T08:03:13.865-07:00'
 blogger_id: tag:blogger.com,1999:blog-5912202199970471220.post-7967181821459397030
 blogger_orig_url: http://www.tomcafarella.com/2017/04/what-mary-cain-has-learned-from-her.html

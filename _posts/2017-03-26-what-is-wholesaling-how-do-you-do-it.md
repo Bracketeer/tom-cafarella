@@ -5,7 +5,7 @@ enclosure:
 pullquote:
 enclosure_type: video/mp4
 enclosure_time:
-use_youtube_image: true
+use_youtube_image: false
 youtube_alternate_image: /img/cover.jpg
 layout: post
 title: What is Wholesaling & How Do You Do It?

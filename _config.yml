@@ -17,13 +17,19 @@ kramdown:
   input: GFM
 highlighter: rouge
 
-paginate: 5
-permalink: none
-paginate_path: "/blog/page:num/"
+pagination:
+  permalink: pretty
+  enabled: true
+  per_page: 5
+  sort_field: 'date'
+  sort_reverse: true
+  trail: 
+    before: 1
+    after: 3
 plugins:
   - jemoji
   - octopress-autoprefixer
-  - jekyll-paginate
+  - jekyll-paginate-v2
   - jekyll-sitemap
   - jekyll-admin
 #  - jekyll-seo-tag

@@ -15,6 +15,7 @@ date: '2017-04-04T13:52:00.003-07:00'
 author: Vyral Admin
 tags:
 - Testimonials
+categories: Testimonials
 modified_time: '2017-04-04T13:52:48.036-07:00'
 blogger_id: tag:blogger.com,1999:blog-5912202199970471220.post-3968074068258530123
 blogger_orig_url: http://www.tomcafarella.com/2017/04/andrew-nazzaro.html

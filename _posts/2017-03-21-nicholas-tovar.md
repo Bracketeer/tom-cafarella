@@ -15,6 +15,7 @@ date: '2017-03-21T10:46:00.001-07:00'
 author: Vyral Admin
 tags:
 - Testimonials
+categories: Testimonials
 modified_time: '2017-03-21T10:46:58.008-07:00'
 blogger_id: tag:blogger.com,1999:blog-5912202199970471220.post-5288614699059954130
 blogger_orig_url: http://www.tomcafarella.com/2017/03/nicholas-tovar.html

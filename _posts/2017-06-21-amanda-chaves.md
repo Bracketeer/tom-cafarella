@@ -15,6 +15,7 @@ date: '2017-06-21T14:24:00.001-07:00'
 author: Vyral Admin
 tags:
 - Testimonials
+categories: Testimonials
 modified_time: '2017-06-21T14:24:15.248-07:00'
 blogger_id: tag:blogger.com,1999:blog-5912202199970471220.post-817416148828221191
 blogger_orig_url: http://www.tomcafarella.com/2017/06/amanda-chaves.html

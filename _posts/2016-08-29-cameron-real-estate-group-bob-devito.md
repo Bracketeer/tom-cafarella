@@ -15,6 +15,7 @@ date: '2016-08-29T14:35:00.003-07:00'
 author: Vyral Admin
 tags:
 - Testimonials
+categories: Testimonials
 modified_time: '2017-02-07T10:35:16.459-08:00'
 blogger_id: tag:blogger.com,1999:blog-5912202199970471220.post-187244880177798045
 blogger_orig_url: http://www.tomcafarella.com/2016/08/cameron-real-estate-group-bob-devito.html

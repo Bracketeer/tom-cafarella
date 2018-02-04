@@ -15,6 +15,7 @@ date: '2017-03-28T08:40:00.001-07:00'
 author: Vyral Admin
 tags:
 - Testimonials
+categories: Testimonials
 modified_time: '2017-03-28T08:40:59.384-07:00'
 blogger_id: tag:blogger.com,1999:blog-5912202199970471220.post-8501597559027937308
 blogger_orig_url: http://www.tomcafarella.com/2017/03/kyle-balliff-discusses-his-first-time.html

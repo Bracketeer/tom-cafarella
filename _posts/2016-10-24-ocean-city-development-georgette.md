@@ -1,4 +1,6 @@
 ---
+has_soundcloud: true
+soundcloud_embed_code: 289789462
 youtube_code:
 excerpt:
 enclosure:
@@ -12,7 +14,8 @@ title: 'Ocean City Development: Georgette'
 date: '2016-10-24T14:15:00.002-07:00'
 author: Vyral Admin
 tags:
-- Seller Testimonials
+- Testimonials
+categories: Testimonials
 modified_time: '2017-02-07T10:35:16.492-08:00'
 blogger_id: tag:blogger.com,1999:blog-5912202199970471220.post-9190991938123407836
 blogger_orig_url: http://www.tomcafarella.com/2016/10/ocean-city-development-georgette.html

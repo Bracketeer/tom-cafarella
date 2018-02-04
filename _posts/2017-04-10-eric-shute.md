@@ -15,6 +15,7 @@ date: '2017-04-10T12:59:00.003-07:00'
 author: Vyral Admin
 tags:
 - Testimonials
+categories: Testimonials
 modified_time: '2017-04-10T13:02:19.874-07:00'
 blogger_id: tag:blogger.com,1999:blog-5912202199970471220.post-4619858236183246023
 blogger_orig_url: http://www.tomcafarella.com/2017/04/eric-shute.html

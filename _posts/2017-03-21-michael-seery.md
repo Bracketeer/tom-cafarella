@@ -15,6 +15,7 @@ date: '2017-03-21T10:40:00.002-07:00'
 author: Vyral Admin
 tags:
 - Testimonials
+categories: Testimonials
 modified_time: '2017-03-21T10:43:32.099-07:00'
 blogger_id: tag:blogger.com,1999:blog-5912202199970471220.post-9182922577131522981
 blogger_orig_url: http://www.tomcafarella.com/2017/03/michael-seery.html

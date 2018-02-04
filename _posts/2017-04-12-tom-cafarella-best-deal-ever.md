@@ -1,4 +1,6 @@
 ---
+has_soundcloud: true
+soundcloud_embed_code: 317376607
 youtube_code:
 excerpt: "Hear Tom Cafarella on the Deal Farm Podcast. Tom is co-founder of Ocean City Development – a real estate investing company that averages 100 deals a year in the Boston Market. Listen in as Tom shares his strategies and systems that make his lead generation so effective. afarella on the Deal Farm Podcast. Tom is co-founder of Ocean City Development – a real estate investing company that averages 100 deals a year in the Boston Market. Listen in as Tom shares his strategies and systems that make his lead generation so effective."
 enclosure:

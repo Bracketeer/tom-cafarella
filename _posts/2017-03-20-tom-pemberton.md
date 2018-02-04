@@ -15,6 +15,7 @@ date: '2017-03-20T12:49:00.002-07:00'
 author: Vyral Admin
 tags:
 - Testimonials
+categories: Testimonials
 modified_time: '2017-03-20T12:49:19.734-07:00'
 thumbnail: https://2.bp.blogspot.com/-mOMHUeq3X10/WNAxTjyKuFI/AAAAAAAAt1I/JazInKcNtwM5YikyOu3pRfNTPiLIbkY1gCEw/s72-c/TPemberton.jpg
 blogger_id: tag:blogger.com,1999:blog-5912202199970471220.post-6427501789992435309

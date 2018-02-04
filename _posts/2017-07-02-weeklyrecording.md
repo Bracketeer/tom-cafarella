@@ -11,7 +11,7 @@ pullquote:
 enclosure_type: video/mp4
 enclosure_time:
 use_youtube_image: false
-youtube_alternate_image: http://placehold.it/500x315
+youtube_alternate_image: http://placehold.it/480x270
 youtube_code:
 ---
 {% include youtube.html %}

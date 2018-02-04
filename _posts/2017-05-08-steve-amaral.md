@@ -15,6 +15,7 @@ date: '2017-05-08T13:48:00.001-07:00'
 author: Vyral Admin
 tags:
 - Testimonials
+categories: Testimonials
 modified_time: '2017-05-08T13:50:41.266-07:00'
 blogger_id: tag:blogger.com,1999:blog-5912202199970471220.post-3376397192462593749
 blogger_orig_url: http://www.tomcafarella.com/2017/05/steve-amaral.html

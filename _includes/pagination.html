@@ -39,64 +39,80 @@
     {% endif %}
   {% endif %}
 
-  {% if paginator.total_pages > 5 %}
+
     <!-- First page -->
-    {% if paginator.previous_page %}
-      <a href="/" class="first-page"></a>
+    {% if paginator.previous_page_path %}
+      <a href="{{ paginator.first_page_path | prepend: site.baseurl }}" class="first-page"></a>
     {% else %}
       <span class="first-page"></span>
     {% endif %}
-  {% endif %}
 
   <!-- Previous page -->
   {% if paginator.previous_page %}
-    <a href="{{ paginator.previous_page_path}}" class="previous-page"><svg id="Layer_1" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 26.07 26.65"><defs><style>.cls-1{fill: $brand}</style></defs><title>arrow_left</title><path class="cls-1" d="M672.44 767a1 1 0 0 0 0 .13 1 1 0 0 0 0 .22 1 1 0 0 0 .29.71l12 12a1 1 0 0 0 1.41 0 1.25 1.25 0 0 0 0-1.61L675.77 768h21.66a1 1 0 1 0 0-2h-21.71l10.41-10.72a.89.89 0 0 0 0-1.32 1 1 0 0 0-.69-.23 1 1 0 0 0-.72.33l-12 12.57a1 1 0 0 0-.28.37z" transform="translate(-672.37 -753.74)"/></svg></a>
+    <a href="{{ paginator.previous_page_path }}" class="previous-page"><svg id="Layer_1" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 26.07 26.65"><defs><style>.cls-1{fill: $brand}</style></defs><title>arrow_left</title><path class="cls-1" d="M672.44 767a1 1 0 0 0 0 .13 1 1 0 0 0 0 .22 1 1 0 0 0 .29.71l12 12a1 1 0 0 0 1.41 0 1.25 1.25 0 0 0 0-1.61L675.77 768h21.66a1 1 0 1 0 0-2h-21.71l10.41-10.72a.89.89 0 0 0 0-1.32 1 1 0 0 0-.69-.23 1 1 0 0 0-.72.33l-12 12.57a1 1 0 0 0-.28.37z" transform="translate(-672.37 -753.74)"/></svg></a>
   {% else %}
     <span class="previous-page"><svg class="disabled" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 26.07 26.65"><defs></defs><title>arrow_left</title><path class="cls-1" d="M672.44 767a1 1 0 0 0 0 .13 1 1 0 0 0 0 .22 1 1 0 0 0 .29.71l12 12a1 1 0 0 0 1.41 0 1.25 1.25 0 0 0 0-1.61L675.77 768h21.66a1 1 0 1 0 0-2h-21.71l10.41-10.72a.89.89 0 0 0 0-1.32 1 1 0 0 0-.69-.23 1 1 0 0 0-.72.33l-12 12.57a1 1 0 0 0-.28.37z" transform="translate(-672.37 -753.74)"/></svg></span>
   {% endif %}
 
   <!-- Start ellipsis -->
+  {% comment %}
   {% if start > 1 %}
     <span class="start-ellipsis"></span>
   {% endif %}
-
     <!-- Page numbers -->
     <span class="numbers">
   {% for num  in (start..end)%}
   	{% if num == paginator.page %}
-  	  <span class="number current">{{ num }}</span>
+  	  <span class="numbers">
+      <a class="number" href="{{paginator.page_path:num}}">{{ num }}</a>
+    </span>
   	{% elsif num == 1 %}
-  	  <a class="number" href="/blog/">{{ num }}</a>
   	{% else %}
-  	  <a class="number" href="/blog/page{{ num }}">{{ num }}</a>
+  	  <a class="number" href="{{paginator.page_path:num}}">{{ num }}</a>
   	{% endif %}
     {% unless forloop.last %}
       <span class="seperator"></span>
     {% endunless %}
   {% endfor %}
   </span>
-
-  <!-- End ellipsis -->
-  {% if end < paginator.total_pages %}
+    <!-- End ellipsis -->
+    {% if end < paginator.total_pages %}
     <span class="end-ellipsis"></span>
   {% endif %}
 
+{% endcomment %}
+  {% if paginator.page_trail %}
+  {% for trail in paginator.page_trail %}
+  {% if page.url == trail.path %}
+  <span class="numbers">
+  <span class="number current" href="{{ trail.title | prepend: site.baseurl }}" disabled title="{{trail.title}}">{{ trail.num }}</span>
+  </span>
+  {% else %}
+  <span class="numbers">
+      <a class="number" href="{{ trail.path | prepend: site.baseurl }}" title="{{trail.title}}">{{ trail.num }}</a>
+  </span>
+  {% endif %}
+  {% endfor %}
+{% endif %}
+
+
+
   <!-- Next page -->
   {% if paginator.next_page %}
-    <a href="{{ paginator.next_page_path }}" class="next-page" target="_self"><svg data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 26.07 26.63"><title>arrow_right</title><path class="cls-1" d="M25.99 13.35a1 1 0 0 0 0-.13 1 1 0 0 0 0-.22 1 1 0 0 0-.29-.71l-12-12a1 1 0 0 0-1.41 0 1.15 1.15 0 0 0 0 1.54l10.34 10.41H1a1 1 0 0 0 0 2h21.72L12.31 25.03a.93.93 0 0 0 0 1.35 1 1 0 0 0 .69.25 1 1 0 0 0 .72-.32l12-12.57a1 1 0 0 0 .27-.39z"/></svg>
+    <a href="{{ paginator.next_page_path | prepend: site.baseurl }}" class="next-page" target="_self"><svg data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 26.07 26.63"><title>arrow_right</title><path class="cls-1" d="M25.99 13.35a1 1 0 0 0 0-.13 1 1 0 0 0 0-.22 1 1 0 0 0-.29-.71l-12-12a1 1 0 0 0-1.41 0 1.15 1.15 0 0 0 0 1.54l10.34 10.41H1a1 1 0 0 0 0 2h21.72L12.31 25.03a.93.93 0 0 0 0 1.35 1 1 0 0 0 .69.25 1 1 0 0 0 .72-.32l12-12.57a1 1 0 0 0 .27-.39z"/></svg>
 </a>
   {% else %}
     <span class="next-page"><svg class="disabled" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 26.07 26.63"><title>arrow_right</title><path class="cls-1" d="M25.99 13.35a1 1 0 0 0 0-.13 1 1 0 0 0 0-.22 1 1 0 0 0-.29-.71l-12-12a1 1 0 0 0-1.41 0 1.15 1.15 0 0 0 0 1.54l10.34 10.41H1a1 1 0 0 0 0 2h21.72L12.31 25.03a.93.93 0 0 0 0 1.35 1 1 0 0 0 .69.25 1 1 0 0 0 .72-.32l12-12.57a1 1 0 0 0 .27-.39z"/></svg>
 </span>
   {% endif %}
 
+  
 <!-- becomes active if over 10pages -->
-{% if paginator.total_pages > 5 %}
+
   <!-- Last page-->
   {% if paginator.next_page %}
-    <a href="/blog/page{{ paginator.total_pages }}" class="last-page" target="_self" ></a>
+    <a href="{{ paginator.last_page_path }}" class="last-page" target="_self" ></a>
   {% else %}
     <span class="last-page"></span>
   {% endif %}
-{% endif %}
 </div>
