@@ -4,13 +4,13 @@ description: 'If you are looking to buy or sell a home, get all the information 
 show_custom_links: true
 custom_links:
   - title: 'Q and A Sessions'
-    url: /QandA
+    url: /QandA/
   - title: Testimonials
-    url: /testimonials
+    url: /testimonials/
   - title: Our Team
     url: /our-team.html
   - title: Blog
-    url: /blog  
+    url: /blog/
 
 client:
   name: Tom Cafarella
