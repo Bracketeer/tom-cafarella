@@ -5,6 +5,8 @@ show_custom_links: true
 custom_links:
   - title: 'Q and A Sessions'
     url: /QandA/
+  - title: 'Weekly Training'
+    url: /WeeklyRecordings/
   - title: Testimonials
     url: /testimonials/
   - title: Our Team

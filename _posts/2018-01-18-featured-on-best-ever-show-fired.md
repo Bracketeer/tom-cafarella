@@ -6,7 +6,7 @@ pullquote:
 enclosure_type: video/mp4
 enclosure_time:
 use_youtube_image: false
-youtube_alternate_image: /img/ss/firedaccountant.png
+youtube_alternate_image: /img/SS/firedaccountant.png
 layout: post
 title: 'Featured On the Best Ever Show: Fired Accountant Builds 150 Agent Brokerage '
 date: '2018-01-18T09:07:00.000-08:00'
