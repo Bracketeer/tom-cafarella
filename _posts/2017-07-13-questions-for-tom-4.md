@@ -1,6 +1,6 @@
 ---
 layout: post
-title: 'Questions for Tom: 7.26.17'
+title: 'Questions for Tom: 7.13.17'
 date: '2017-07-13T13:47:00.004-07:00'
 categories:
   'QA'
@@ -12,7 +12,7 @@ enclosure_type: video/mp4
 enclosure_time:
 use_youtube_image: true
 youtube_alternate_image: http://placehold.it/500x315
-youtube_code: https://youtu.be/hWSFtpVyCpY
+youtube_code: https://youtu.be/4pseE-dP2HY
 ---
 {% include youtube.html %}
 

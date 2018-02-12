@@ -20,7 +20,7 @@
 		</div>
 	</div>
 	{% endfor %}
-	{% for highlight in site.categories.weeklyrecording | limit: 1%}
+	{% for highlight in site.categories.["WeeklyRecordings"] | limit: 1%}
 	<div class="col-lg-4">
 		<div class="video-container">
       <a href="{{highlight.url}}">
